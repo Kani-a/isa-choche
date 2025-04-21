@@ -4,13 +4,25 @@ import img3 from "./download.jpg"
 import img4 from "./muler.jpg"
 import img5 from "./choche3.jpg"
 
-const imagens ={
-    img1 : img1,
-    img2 : img2,
-    img3 : img3,
-    img4 : img4,
-    img5 : img5
-}
+// const imagens ={
+//     img1 : img1,
+//     img2 : img2,
+//     img3 : img3,
+//     img4 : img4,
+//     img5 : img5
+// }
+const imagens = [
+    {
+        titulo: "num sei oq",
+        thumb: img1,
+        categoria: "roupa"
+    },
+    {
+        titulo: "blabla bla blebleble blu blu blu",
+        thumb: img2,
+        categoria: "roupa"
+    }
+]
 export default imagens;
 
 
