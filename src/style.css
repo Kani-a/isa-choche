@@ -1,0 +1,12 @@
+:root{
+    --container-bg: #e95374 !important;
+    --navbar: #fbdddd !important;
+    --prod-bg: #d9d9d9 !important;
+
+}
+.pink-banner{
+    background-color: var(--container-bg);
+}
+.prod{
+    background-color: var(--prod-bg);
+}
