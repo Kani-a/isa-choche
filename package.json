@@ -31,6 +31,6 @@
   },
   "imports": {
     "#node/": "./node_modules/",
-    "#root": "./src"
+    "#root/": "./src"
   }
 }

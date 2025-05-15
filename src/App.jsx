@@ -1,7 +1,10 @@
-import imagens from "./assets/imagens";
+
 import './style.css'
 
 import { DropdownButton } from "./componets/buttons/dropdown";
+import { Banner } from "flowbite-react";
+import ProdRow from "./componets/card/prod-container";
+import BannerP from './componets/card/banner';
 
 
 export default function App() {
@@ -20,43 +23,10 @@ export default function App() {
       </header>
 
       <main>
-        <section className="pink-banner flex bg-red-200 h-25 my-10">
-          <p className="prod w-full flex justify-center  mx-10 ">
-            banner e num sei oq 
-          </p>
-        </section>
-  
-        <section className="main-prod flex justify-center my-10">
-
-          <ul className="prod-container grid grid-cols-2 md:grid-cols-4  gap-x-7 p-3 size-max">
-          <li className="m-1 prod">
-              <img src={imagens[1].thumb} alt="imagen-prod" />
-              <label htmlFor="imagen-prod" >
-                {imagens[1].titulo}
-              </label>
-            </li>
-            <li className="m-1 prod">
-              <img src={imagens[1].thumb} alt="imagen-prod" />
-              <label htmlFor="imagen-prod" >
-                {imagens[1].titulo}
-              </label>
-            </li>  <li className="m-1 prod">
-              <img src={imagens[1].thumb} alt="imagen-prod" />
-              <label htmlFor="imagen-prod" >
-                {imagens[1].titulo}
-              </label>
-            </li>  <li className="m-1 prod">
-              <img src={imagens[1].thumb} alt="imagen-prod" />
-              <label htmlFor="imagen-prod" >
-                {imagens[1].titulo}
-              </label>
-            </li>  
-          </ul>
-        </section>
-          
-        <br />
-
-        <p id="minhabunda">trepa trepa</p>
-              </main>
+        <BannerP/>
+        <ProdRow/>
+        <BannerP/>
+        <ProdRow/>
+      </main>
 </>)
 }

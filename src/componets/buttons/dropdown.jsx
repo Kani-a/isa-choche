@@ -4,7 +4,7 @@ export function DropdownButton() {
   const customTheme = createTheme({
     button:{
       color:{
-        primary: "bg-red-700 hover:bg-red-600 w-sm",
+        primary: "bg-white hover:bg-pink-100 w-sm",
         secondary: "bg-blue-500 hover:bg-blue-600",
       },
       size:{
